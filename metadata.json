@@ -1,0 +1,6 @@
+{
+  "name": "Chess Vision",
+  "description": "Real-time chess board vision analysis, UCI engine evaluation, and tactical voice commentary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

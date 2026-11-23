@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">Chess Vision</string>
+
+    <!-- Navigation -->
+    <string name="nav_analyzer">التحليل</string>
+    <string name="nav_vision">الرؤية</string>
+    <string name="nav_uci">المحرك</string>
+
+    <!-- Header & Status -->
+    <string name="brand_title">Chess Vision</string>
+    <string name="brand_subtitle">Stockfish UCI</string>
+    <string name="engine_ready">المحرك جاهز</string>
+    <string name="engine_thinking">جارٍ التحليل…</string>
+    <string name="turn_white">دور الأبيض</string>
+    <string name="turn_black">دور الأسود</string>
+    <string name="status_check">كش ملك</string>
+    <string name="status_checkmate">كش مات</string>
+    <string name="status_stalemate">تعادل (خنق)</string>
+    <string name="status_draw">تعادل</string>
+
+    <!-- Board Actions -->
+    <string name="action_analyze">تحليل الآن</string>
+    <string name="action_stop">إيقاف</string>
+    <string name="action_flip_board">قلب الرقعة</string>
+    <string name="action_reset_board">وضعية البداية</string>
+    <string name="action_undo_move">تراجع</string>
+    <string name="action_edit_board">تعديل الرقعة</string>
+    <string name="action_done_editing">إنهاء التعديل</string>
+    <string name="action_clear_board">إفراغ الرقعة</string>
+    <string name="action_copy_fen">نسخ FEN</string>
+    <string name="action_load_fen">إدخال FEN</string>
+    <string name="action_presets">مواقف تكتيكية</string>
+    <string name="fen_copied_toast">تم نسخ رمز FEN</string>
+    <string name="fen_invalid_error">رمز FEN غير صالح</string>
+
+    <!-- Engine & PV Lines -->
+    <string name="top_lines_title">أفضل الخطوط الاستراتيجية (MultiPV)</string>
+    <string name="depth_label">العمق</string>
+    <string name="nodes_label">العقد</string>
+    <string name="nps_label">عقدة/ث</string>
+    <string name="best_move_label">أفضل نقلة</string>
+    <string name="play_best_move">تنفيذ النقلة</string>
+    <string name="no_moves_available">لا توجد نقلات قانونية</string>
+
+    <!-- Voice Commentary -->
+    <string name="voice_commentary_title">التعليق الصوتي التكتيكي</string>
+    <string name="voice_speak">نطق التحليل</string>
+    <string name="voice_stop_speaking">إيقاف الصوت</string>
+    <string name="voice_auto_speak">نطق تلقائي</string>
+    <string name="voice_lang_ar">العربية</string>
+    <string name="voice_lang_en">English</string>
+
+    <!-- Firebase AI Placeholder Notice -->
+    <string name="ai_placeholder_title">وضع المعاينة الذكي (يتطلب Firebase AI)</string>
+    <string name="ai_placeholder_notice">ميزات الرؤية السحابية بالذكاء الاصطناعي والتعليق التوليدي تعمل حالياً بردود تجريبية محلية لأن إعداد Firebase غير مفعّل. يظل تحليل محرك الشطرنج UCI والنطق الصوتي يعملان محلياً بالكامل.</string>
+
+    <!-- Vision Scanner Screen -->
+    <string name="vision_title">الماسح البصري للرقعة</string>
+    <string name="vision_subtitle">التقط صورة رقعة شطرنج بالكاميرا أو استورد لقطة شاشة لتحليل المربعات 8×8 وتحويلها إلى FEN</string>
+    <string name="vision_open_camera">تشغيل الكاميرا</string>
+    <string name="vision_capture_frame">التقاط وتحليل</string>
+    <string name="vision_pick_screenshot">استيراد صورة / لقطة شاشة</string>
+    <string name="vision_apply_to_board">إرسال إلى لوحة التحليل</string>
+    <string name="vision_camera_permission_title">صلاحية الكاميرا مطلوبة</string>
+    <string name="vision_camera_permission_desc">نحتاج إذن الكاميرا لمسح رقعة الشطرنج الحقيقية أو الشاشات في الوقت الفعلي.</string>
+    <string name="vision_grant_permission">منح الصلاحية</string>
+    <string name="vision_grid_analysis_title">نتائج المعالجة البصرية (شبكة 8×8)</string>
+    <string name="vision_occupied_squares">المربعات المشغولة</string>
+    <string name="vision_contrast_score">تباين الإضاءة</string>
+    <string name="vision_orientation_label">اتجاه المنظور</string>
+    <string name="vision_flip_perspective">عكس المنظور</string>
+    <string name="vision_analyzing">جارٍ معالجة الشبكة 8×8…</string>
+    <string name="vision_empty_hint">وجّه الكاميرا نحو رقعة شطرنج داخل إطار الشبكة أو استورد لقطة شاشة</string>
+    <string name="vision_opencv_locked">OpenCV: تم رصد الرقعة</string>
+    <string name="vision_opencv_searching">OpenCV: جارٍ البحث عن الرقعة…</string>
+    <string name="vision_opencv_unavailable">OpenCV غير مهيأ على هذا الجهاز</string>
+
+    <!-- UCI Console Screen -->
+    <string name="uci_terminal_title">طرفية بروتوكول Stockfish UCI</string>
+    <string name="uci_command_hint">أدخل أمر UCI (مثال: go depth 5)</string>
+    <string name="uci_send">إرسال</string>
+    <string name="uci_settings_title">إعدادات المحرك والواجهة</string>
+    <string name="uci_depth_setting">عمق البحث</string>
+    <string name="uci_multipv_setting">عدد الخطوط (MultiPV)</string>
+    <string name="board_theme_label">نمط ألوان الرقعة</string>
+    <string name="theme_emerald">أخضر بطولات</string>
+    <string name="theme_walnut">خشب الجوز</string>
+    <string name="theme_obsidian">سبج داكن</string>
+    <string name="dialog_fen_title">تحميل وضعية FEN</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_apply">تطبيق</string>
+    <string name="editor_palette_hint">اختر قطعة ثم انقر على أي مربع على الرقعة</string>
+</resources>
