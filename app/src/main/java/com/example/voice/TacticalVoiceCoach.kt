@@ -62,7 +62,7 @@ class TacticalVoiceCoach(context: Context) : TextToSpeech.OnInitListener {
         if (!isInitialized || engine == null || text.isBlank()) return
 
         val targetLocale = when (language) {
-            CommentaryLanguage.ARABIC -> Locale("ar")
+            CommentaryLanguage.ARABIC -> Locale.forLanguageTag("ar")
             CommentaryLanguage.ENGLISH -> Locale.US
         }
 
